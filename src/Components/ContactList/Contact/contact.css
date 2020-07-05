@@ -5,7 +5,8 @@
     width: 250px;
     display: flex;
     align-items: center;
-    border-radius:10px;
+    border-radius:200px;
+    box-shadow: inset 10px -8px 7px #212121, 5px 5px 8px #999, inset -2px 2px 0px #555, inset -5px 5px 2px #888 ;
 }
 
 /* Contact image */
@@ -14,6 +15,7 @@
     margin-right: 1em;
     width: 60px;
     height: 60px;
+    margin-left:3px;
 }
 
 /* Name */
@@ -26,6 +28,10 @@
 
 .Contact .status{
     padding:0;
+}
+
+.Contact .status:hover{
+    cursor:pointer;
 }
 
 /* Status text */
