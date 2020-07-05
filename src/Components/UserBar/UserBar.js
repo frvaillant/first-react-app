@@ -10,7 +10,6 @@ const UserBar = () => {
             <Contact avatar="https://randomuser.me/api/portraits/women/18.jpg" name="Sophie" online/>
             <Contact avatar="https://randomuser.me/api/portraits/men/79.jpg" name="Arthur"/>
             <Contact avatar="https://randomuser.me/api/portraits/women/10.jpg" name="Martine" online/>
-            <Contact />
         </div>
     )
 }
