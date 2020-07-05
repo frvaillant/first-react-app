@@ -1,10 +1,12 @@
 import React from 'react';
-import Contact from "./Components/Contact/Contact";
+import Navbar from "./Components/Navbar/Navbar";
+import UserBar from "./Components/UserBar/UserBar";
 
 function App() {
   return (
     <div className="App">
-      <Contact avatar="https://randomuser.me/api/portraits/thumb/men/75.jpg" name="François"/>
+        <Navbar/>
+        <UserBar/>
     </div>
   );
 }

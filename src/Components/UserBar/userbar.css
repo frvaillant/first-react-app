@@ -1,0 +1,9 @@
+.User-bar {
+    display:block;
+    width:200px;
+    margin-left:10px;
+}
+
+.User-bar div.Contact {
+    margin-top:10px !important;
+}
