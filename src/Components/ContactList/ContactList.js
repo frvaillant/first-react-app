@@ -40,12 +40,13 @@ const ContactList = () => {
     return (<div className="User-bar">
         {
             users.map(
-                user =>
+                (user, index) =>
                     <Contact
-                    name = {user.name}
-                    avatar = {user.avatar}
-                    alt = {user.altText}
-                    online = {user.online}
+                        key={index}
+                        name = {user.name}
+                        avatar = {user.avatar}
+                        alt = {user.altText}
+                        online = {user.online}
                     />
             )
         }
