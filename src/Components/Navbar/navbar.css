@@ -2,6 +2,27 @@
     display:block;
     width:100%;
     height:57px;
-    background: teal;
+    background: #282c34;
     color:#fff;
+    line-height: 57px;
+    vertical-align: middle;
+    padding:0 20px;
+}
+
+.navbar .logo {
+    font-size:2rem;
+}
+
+.navbar a {
+    font-size: 1.2rem;
+    margin-right:50px;
+    float:right;
+    color:#fff;
+    text-decoration: none;
+    transition:color 0.2s linear;
+}
+
+.navbar a:hover {
+    color: #61dafb;
+    transition:color 0.2s linear;
 }
