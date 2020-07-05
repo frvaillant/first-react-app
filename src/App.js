@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from "./Components/Navbar/Navbar";
-import UserBar from "./Components/UserBar/UserBar";
+import ContactList from "./Components/ContactList/ContactList";
 
 function App() {
   return (
     <div className="App">
         <Navbar/>
-        <UserBar/>
+        <ContactList/>
     </div>
   );
 }
